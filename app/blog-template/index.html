@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Simple Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="create-post.html">Create Post</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>Recent Posts</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <img src="./images/preview.png" class="card-img-top" alt="Image for Example Post Title 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Example Post Title 1</h5>
+                        <p class="card-text">This is a short content of the blog post content...</p>
+                        <a href="show.html" class="btn btn-primary">Read More</a>
+                        <a href="edit-post.html" class="btn btn-secondary ms-2">Edit</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Author Name
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <img src="./images/preview.png" width="100" class="card-img-top"
+                        alt="Image for Example Post Title 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Example Post Title 2</h5>
+                        <p class="card-text">This is another short content of the blog post content...</p>
+                        <a href="show.html" class="btn btn-primary">Read More</a>
+                        <a href="edit-post.html" class="btn btn-secondary ms-2">Edit</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Author Name
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">About</h5>
+                        <p class="card-text">This is a simple blog website created using HTML, CSS, and Bootstrap. It
+                            features posts with titles, descriptions, and images.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
